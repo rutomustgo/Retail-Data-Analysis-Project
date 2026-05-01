@@ -41,7 +41,29 @@ With the data fully cleaned and enriched, the next phase of this project involve
 * **Dynamic Charts** for executive-level reporting.
 
 ---
+## 📊 Interactive Executive Dashboard & Advanced Visualization
 
+I enhanced this project by designing a dynamic, single-page Executive Dashboard to translate backend data into actionable business insights.
+
+### Key Visualization & Dashboard Features Added:
+
+* **Dynamic KPI Summary Cards:** * Designed clean, high-level metric tiles at the top of the dashboard for **Total Revenue** ($1.78M), **Total Profit** ($439.8K), and **Average Profit Margin** (24.77%).
+  * Connected shapes using plain-cell reference bridges to mirror the Pivot Cache dynamically.
+
+* **Interactive Slicers (Cross-Filtering):**
+  * Integrated **Category**, **Region**, and **Month Name** slicers.
+  * Configured **Report Connections** across multiple Pivot Tables, allowing stakeholders to instantly filter the entire dashboard with a single click.
+
+* **Advanced Chart Formatting & Cleanliness:**
+  * **Seasonal Trend Analysis:** Line chart visualizing monthly sales performance from January to December (filtered out blank date records).
+  * **Regional Performance:** Cleaned horizontal bar chart isolating key business territories by filtering out "Unknown" data artifacts.
+  * **Category Profitability & Customer Behaviour:** Dual-axis and clustered visualizations to show profit margins and buying patterns across weekdays vs. weekends.
+
+### 🛠️ Technical Skills Demonstrated:
+* Data visualization design principles (cohesive color themes, layout hierarchy).
+* Advanced Pivot Table calculations and Pivot Chart generation.
+* Dashboard interactivity via Slicers and connected Pivot Cache.
+* Data cleaning directly within visual filters for accurate executive reporting.
 ## Tools Used
 * **Excel (Power Query):** Data Extraction, Transformation, and Feature Engineering.
 * **Excel (Pivot Tables & Charts):** Advanced Data Analysis and Visualization.
